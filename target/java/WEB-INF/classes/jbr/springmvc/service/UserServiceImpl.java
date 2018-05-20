@@ -6,6 +6,7 @@ import jbr.springmvc.dao.UserDao;
 import jbr.springmvc.model.Login;
 import jbr.springmvc.model.User;
 
+@Component
 public class UserServiceImpl implements UserService {
 
   @Autowired
